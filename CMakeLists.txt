@@ -3,7 +3,7 @@ project(LTCC)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(LTCC scoreReport.cpp main.cpp ttt.cpp CCC/15J2.cpp CCC/16J2.cpp CCC/16J3.cpp CCC/17J2.cpp CCC/17J4.cpp CCC/17J4-ALT.cpp)
+add_executable(LTCC scoreReport.cpp main.cpp ttt.cpp CCC/15J2.cpp CCC/16J2.cpp CCC/16J3.cpp CCC/17J2.cpp CCC/17J4.cpp CCC/17J4-ALT.cpp CCC/18J3.cpp CCC/17J3.cpp CCC/18J3-ALT.cpp CCC/21J3.cpp)
 
 add_executable(scoreReport scoreReport.cpp)
 add_executable(15J2 CCC/15J2.cpp CCC/14J3.cpp)
@@ -14,3 +14,7 @@ add_executable(16J3 CCC/16J3.cpp)
 add_executable(17J2 CCC/17J2.cpp)
 add_executable(17J4 CCC/17J4.cpp)
 add_executable(17J4-ALT CCC/17J4-ALT.cpp)
+add_executable(18J3 CCC/18J3.cpp)
+add_executable(17J3 CCC/17J3.cpp)
+add_executable(18J3-ALT CCC/18J3-ALT.cpp)
+add_executable(21J3 CCC/21J3.cpp)
